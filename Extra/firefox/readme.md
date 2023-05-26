@@ -1,4 +1,4 @@
-# It's a modified version of KeyFox theme by AlfarexGuy201
+# It's a modified version of KeyFox theme by AlfarexGuy2019
 
 ## Install the firefox color theme (using firefox colors extension)
 
