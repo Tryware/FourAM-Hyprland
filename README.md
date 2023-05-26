@@ -15,3 +15,4 @@ I was listening to playboicarti, so i thought about making a low-bloat rice whic
 * Pacman package manager (for the waybar updater which you can edit for your distro's package manager if you wish.)
 * Pipewire + Wireplumber (you can change it to another audio package if you want, but you'll have to edit hyprland and waybar settings)
 * Jetbrains Nerd Fonts
+* Catppuccin-Mocha-Pink-Cursors
