@@ -1,0 +1,9 @@
+style=style.css
+mode=drun
+insensitive=true
+width=500
+height=250
+term=kitty
+hide_scroll=true
+location=2
+yoffset=400
