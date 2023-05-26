@@ -1,0 +1,45 @@
+* {
+    border: none;
+    border-radius: 10px;
+    font-family: JetBrains Mono Nerd Font;
+    font-size: 15px;
+    min-height: 0;
+}
+
+window#waybar {
+  background: #0B0A10;
+  color: #e9c4ec;
+  border-radius: 50px 50px 50px 50px;
+  margin: 13px 13px;
+}
+
+tooltip {
+	background: #0B0A10;
+	border-radius: 15px;
+	color: #e9c4ec;
+	border-width: 1px;
+	margin: 15px 15px;
+	border-color: #e9c4ec;
+}
+
+#clock, #memory, #cpu, #disk, #temperature, #window, #custom-updates, #wireplumber, #custom-dunst {
+	background-color: transparent;
+	padding: 5px 10px;
+	margin: 10px 0px;
+	color: #e9c4ec;
+}
+
+#clock {
+ margin-right: 15px;
+
+}
+
+#disk {
+    margin-left: 15px;
+}
+
+#workspaces button.active {
+	color:#e9c4ec;	
+}
+
+
