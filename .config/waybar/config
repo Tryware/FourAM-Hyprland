@@ -1,0 +1,85 @@
+{
+    "position": "top", 
+     "height": -50,
+    "margin-top": 10,
+    "margin-left": 70,
+    "margin-bottom": 2,
+    "margin-right": 70,
+    "modules-right": ["custom/dunst", "wireplumber", "custom/updates", "clock"],
+    "modules-center": ["wlr/workspaces"],
+    "modules-left": ["disk", "cpu", "memory", "temperature"],
+    // Modules configuration
+ "clock": {
+        // "timezone": "America/Sao_Paulo",
+        "tooltip-format": "~ <big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
+        "format": "󰅐 {:%H:%M} ",
+    },
+ "custom/updates": {
+        "exec": "(pacman -Qu ; yay -Qua) | wc -l",
+        "interval": 7200,
+        "format": "  {}",
+    },
+  "custom/dunst": {
+        "format":"{}",
+        "exec": "~/.config/waybar/modules/dunst.sh",
+        "on-click": "dunstctl set-paused toggle",
+        "restart-interval": 1
+    },
+   "wlr/workspaces": {
+   "disable-scroll": false,
+    "on-scroll-up": "hyprctl dispatch workspace e+1",
+    "on-scroll-down": "hyprctl dispatch workspace e-1",
+    "all-outputs": true,
+     "on-click": "activate",
+     "format": "{icon}",
+     "format-icons": {
+            "1": "I",
+            "2": "II",
+            "3": "III",
+            "4": "IV",
+            "5": "V",
+            "6": "VI",
+            "7": "VII",
+            "8": "VIII",
+            "9": "IX",
+            "10": "X",
+            }
+    },
+	  "hyprland/window": {
+        "format": "{}",
+        "separate-outputs": true
+    },
+	  "memory": {
+	       "height": -50,
+
+        "interval": 5,
+        "format": " {}%"
+    },
+      "cpu": {
+           "height": -50,
+
+        "interval": 5,
+        "format": " {usage:2}%"
+    },
+        "temperature": {
+        // "thermal-zone": 2,
+        "hwmon-path": "/sys/class/hwmon/hwmon1/temp1_input",
+        "critical-threshold": 80,
+        // "format-critical": "{temperatureC}°C {icon}",
+        "format": "{icon} {temperatureC}°C",
+        "format-icons": ["", "", ""]
+    },
+        "disk": {
+        "interval": 5,
+        "format": "\uf1c0 {percentage_used:2}%",
+        "path": "/"
+    },
+  		"wireplumber": {
+  		    "format": "{icon} {volume}%",
+  		    "format-muted": "",
+  		    "on-click": "wpctl set-volume @DEFAULT_AUDIO_SINK@ 5%+",
+  		    "on-click-right": "wpctl set-volume @DEFAULT_AUDIO_SINK@ 5%-",
+  		    "format-icons": ["", "", ""]
+  		},
+	}
+}
