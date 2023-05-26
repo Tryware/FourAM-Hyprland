@@ -45,10 +45,6 @@
             "10": "X",
             }
     },
-	  "hyprland/window": {
-        "format": "{}",
-        "separate-outputs": true
-    },
 	  "memory": {
 	       "height": -50,
 
