@@ -11,7 +11,7 @@ I was listening to playboicarti, so i thought about making a low-bloat rice whic
 * Wofi
 * Ranger
 * Gtk3 and Gtk2
-* QT5/6
+* QT5/6 with qt5ct and qt6ct
 * Pacman package manager (for the waybar updater which you can edit for your distro's package manager if you wish.)
 * Pipewire + Wireplumber (you can change it to another audio package if you want, but you'll have to edit hyprland and waybar settings)
 * Jetbrains Nerd Fonts
