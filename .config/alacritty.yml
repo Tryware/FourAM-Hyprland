@@ -1,0 +1,55 @@
+env:
+
+  TERM: xterm-256color
+  LANG: "en_US.UTF-8"
+  LC_CTYPE: en_US.UTF-8
+
+font:
+  # Normal (roman) font face
+  normal:
+     family: "JetBrains Mono Nerd Font"
+  size: 14.0    
+  
+colors:
+  # Default colors
+  primary:
+    background: '0x0B0A10'
+    foreground: '0xe9c4ec'
+
+  # Colors the cursor will use if `custom_cursor_colors` is true
+  cursor:
+    text: '0xe9c4ec'
+    cursor: '0xe9c4ec'
+
+  # Normal colors
+  normal:
+    black:   '0x0B0A10'
+    red:     '0xEFAABF'
+    green:   '0xFFB0E0'
+    yellow:  '0xFEBDFF'
+    blue:    '0xF1A7E2'
+    magenta: '0xE4B4CC'
+    cyan:    '0xFEBDFF'
+    white:   '0xe9c4ec'
+
+  # Bright colors
+  bright:
+    black:   '0x79677e'
+    red:     '0xFEBDFF'
+    green:   '0x2B273F'
+    yellow:  '0x2B273F'
+    blue:    '0x000000'
+    magenta: '0xb592b5'
+    cyan:    '0xe29fcb'
+    white:   '0xeecbed'
+
+draw_bold_text_with_bright_colors: false
+
+window:
+  padding:
+   x: 15
+   y: 15
+
+
+cursor:
+  style: Beam
