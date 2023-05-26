@@ -10,7 +10,7 @@
     "modules-left": ["disk", "cpu", "memory", "temperature"],
     // Modules configuration
  "clock": {
-        // "timezone": "America/Sao_Paulo",
+        // "timezone": "America/Chicago",
         "tooltip-format": "~ <big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
         "format": "󰅐 {:%H:%M} ",
     },
