@@ -16,3 +16,4 @@ I was listening to playboicarti, so i thought about making a low-bloat rice whic
 * Pipewire + Wireplumber (you can change it to another audio package if you want, but you'll have to edit hyprland and waybar settings)
 * Jetbrains Nerd Fonts
 * Catppuccin-Mocha-Pink-Cursors
+* ZSH + Oh-My-Zsh with robbyrussell theme
