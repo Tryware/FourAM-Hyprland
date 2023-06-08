@@ -1,5 +1,5 @@
 # FourAM-Hyprland
-I was listening to playboicarti, so i thought about making a low-bloat rice which reminds me of playboicarti 
+I was listening to playboicarti, so i thought about making a low-bloat rice which reminds me of playboicarti's remix by adrian (do you know the "tokyo night city aesthetic" blahblahblah? yeah that's it)
 
 # Rice results
 ![thephoto](https://github.com/Tryware/FourAM-Hyprland/assets/82564850/df44a526-dc83-4014-8117-3333ea7a3cf2)
