@@ -17,3 +17,4 @@ I was listening to playboicarti, so i thought about making a low-bloat rice whic
 * Jetbrains Nerd Fonts
 * Catppuccin-Mocha-Pink-Cursors
 * ZSH + Oh-My-Zsh with robbyrussell theme
+* SwayOSD
